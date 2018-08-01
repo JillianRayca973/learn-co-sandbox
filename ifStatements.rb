@@ -8,7 +8,7 @@
 #   else
 #     puts "x is greater than 20"
 # end
-t = 23
+t = 48
 if t > 7 && t < 11
     puts "Good Morning"
   elsif t > 11 && t < 17
