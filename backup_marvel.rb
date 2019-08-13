@@ -9,6 +9,7 @@ mood = "Mood"
 funny = "Funny" 
 serious = "Serious"
 
+
 marvel_title = "Iron Man"
 marvel_title2 = "The Incredible Hulk"
 marvel_title3 = "Iron Man 2"
@@ -78,7 +79,7 @@ movie_list = {
   :dc_title10 => ["Shazam",2019,"Comedy","Funny","Action","PG-13"],
   :dc_title11 => ["Wonder Woman-1984",2019,"Serious","Action","PG-13"],
 }  
- def superhero_list(list, genre)
+ def superhero_list(list, genre, mood)
     if genre == "Genre"
       elsif action
         puts movie_list[:marvel_title]
@@ -179,4 +180,4 @@ movie_list = {
       end
       end
   end
- superhero_list("List","Genre")
+ superhero_list("List","Genre","Mood")
